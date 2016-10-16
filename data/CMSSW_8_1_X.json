@@ -10776,8 +10776,8 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-10-16-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 71, 
-                        "num_failed": 4
+                        "num_passed": 76, 
+                        "num_failed": 5
                     }
                 }, 
                 {
@@ -11203,7 +11203,7 @@
                     "details": {}
                 }
             ], 
-            "comp_baseline_state": "ok", 
+            "comp_baseline_state": "errors", 
             "builds": [
                 {
                     "arch": "slc6_amd64_gcc530", 
@@ -11252,7 +11252,28 @@
             "valgrind": "inprogress", 
             "material_budget": "inprogress", 
             "dqm_tests": "inprogress", 
-            "relvals": [], 
+            "relvals": [
+                {
+                    "done": false, 
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-10-16-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 0, 
+                        "num_failed": 3
+                    }
+                }, 
+                {
+                    "done": false, 
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-10-16-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 186, 
+                        "num_failed": 316
+                    }
+                }
+            ], 
             "static_checks": "inprogress", 
             "utests": [
                 {
@@ -11282,7 +11303,7 @@
             ], 
             "igprof": "inprogress", 
             "isIB": true, 
-            "comp_baseline": "inprogress", 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_8_1_X_2016-10-16-2300/slc6_amd64_gcc530/-GenuineIntel/matrix-results", 
             "inProgress": false, 
             "release_name": "CMSSW_8_1_X_2016-10-16-2300", 
             "tests_archs": [
