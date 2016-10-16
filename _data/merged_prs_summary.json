@@ -22967,7 +22967,7 @@
                 "valgrind": "not-found", 
                 "comp_baseline": "not-found", 
                 "compared_tags": "CMSSW_8_1_ROOT6_X_2016-10-15-1100-->CMSSW_8_1_ROOT6_X_2016-10-16-0000", 
-                "dqm_tests": "inprogress", 
+                "dqm_tests": "found", 
                 "utests": [
                     {
                         "arch": "slc6_amd64_gcc530", 
