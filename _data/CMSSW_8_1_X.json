@@ -11201,6 +11201,12 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-10-16-2300/addOnTests.log", 
                     "details": {}
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc600", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc600/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-10-16-2300/addOnTests.log", 
+                    "details": {}
                 }
             ], 
             "comp_baseline_state": "errors", 
@@ -11250,8 +11256,8 @@
             ], 
             "compared_tags": "CMSSW_8_1_X_2016-10-16-1100-->CMSSW_8_1_X_2016-10-16-2300", 
             "valgrind": "inprogress", 
-            "material_budget": "inprogress", 
-            "dqm_tests": "inprogress", 
+            "material_budget": "slc6_amd64_gcc530:8", 
+            "dqm_tests": "found", 
             "relvals": [
                 {
                     "done": false, 
@@ -11277,6 +11283,14 @@
             "static_checks": "inprogress", 
             "utests": [
                 {
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-10-16-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "16"
+                    }
+                }, 
+                {
                     "arch": "slc6_amd64_gcc530", 
                     "passed": "unknown", 
                     "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-10-16-2300/new/logAnalysis.pkl']", 
@@ -11286,12 +11300,6 @@
                     "arch": "slc7_ppc64le_gcc530", 
                     "passed": "unknown", 
                     "file": "['/data/sdt/buildlogs/slc7_ppc64le_gcc530/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-10-16-2300/new/logAnalysis.pkl']", 
-                    "details": {}
-                }, 
-                {
-                    "arch": "slc7_amd64_gcc530", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-10-16-2300/new/logAnalysis.pkl']", 
                     "details": {}
                 }, 
                 {
