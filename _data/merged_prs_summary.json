@@ -13339,8 +13339,8 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0.THREADED-sun-00/CMSSW_8_0_THREADED_X_2016-10-16-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 727, 
-                            "num_failed": 30
+                            "num_passed": 774, 
+                            "num_failed": 32
                         }
                     }
                 ], 
@@ -17186,8 +17186,8 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1.CLANG-sun-11/CMSSW_8_1_CLANG_X_2016-10-16-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 241, 
-                            "num_failed": 7
+                            "num_passed": 402, 
+                            "num_failed": 17
                         }
                     }
                 ], 
@@ -18481,7 +18481,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1.DEVEL-sun-00/CMSSW_8_1_DEVEL_X_2016-10-16-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1445, 
+                            "num_passed": 1460, 
                             "num_failed": 27
                         }
                     }
@@ -20125,7 +20125,18 @@
                     "slc6_amd64_gcc530": "ERR/CMSSW_8_1_ICC_X_2016-10-16-1100/slc6_amd64_gcc530"
                 }, 
                 "igprof": "not-found", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": true, 
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": false, 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1.ICC-sun-11/CMSSW_8_1_ICC_X_2016-10-16-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 232, 
+                            "num_failed": 359
+                        }
+                    }
+                ], 
                 "static_checks": "not-found", 
                 "isIB": true, 
                 "hlt_tests": "not-found", 
@@ -22932,22 +22943,46 @@
             {
                 "addons": [], 
                 "comp_baseline_state": "errors", 
-                "builds": [], 
+                "builds": [
+                    {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": "error", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1.ROOT6-sun-00/CMSSW_8_1_ROOT6_X_2016-10-16-0000/new/logAnalysis.pkl", 
+                        "details": {
+                            "compWarning": 10, 
+                            "miscError": 5, 
+                            "compError": 2, 
+                            "ignoreWarning": 31, 
+                            "linkError": 765
+                        }
+                    }
+                ], 
                 "valgrind": "not-found", 
                 "comp_baseline": "not-found", 
-                "compared_tags": "CMSSW_8_1_ROOT6_X_2016-10-15-1100-->CMSSW_8_1_ROOT6_X", 
+                "compared_tags": "CMSSW_8_1_ROOT6_X_2016-10-15-1100-->CMSSW_8_1_ROOT6_X_2016-10-16-0000", 
                 "dqm_tests": "inprogress", 
-                "utests": [], 
-                "cmsdistTags": {}, 
+                "utests": [
+                    {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1.ROOT6-sun-00/CMSSW_8_1_ROOT6_X_2016-10-16-0000/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
+                "cmsdistTags": {
+                    "slc6_amd64_gcc530": "ERR/CMSSW_8_1_ROOT6_X_2016-10-16-0000/slc6_amd64_gcc530"
+                }, 
                 "igprof": "not-found", 
                 "relvals": [], 
                 "static_checks": "not-found", 
-                "isIB": false, 
+                "isIB": true, 
                 "hlt_tests": "not-found", 
                 "material_budget": "not-found", 
                 "inProgress": false, 
-                "release_name": "CMSSW_8_1_ROOT6_X", 
-                "tests_archs": [], 
+                "release_name": "CMSSW_8_1_ROOT6_X_2016-10-16-0000", 
+                "tests_archs": [
+                    "slc6_amd64_gcc530"
+                ], 
                 "RVExceptions": null, 
                 "merged_prs": [
                     {
@@ -22960,40 +22995,22 @@
                         "author_login": "lgray"
                     }, 
                     {
-                        "hash": "6ebde7496db3701db9f653817fb0d56f94bca3aa", 
-                        "title": "HL-LHC Beamspot in CMSSW 81X", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/15936", 
-                        "number": "15936", 
+                        "hash": "7ded7c26574aa83e5922ba69b9ecaca0f0cbbb92", 
+                        "title": "Added 2-D histogram of trigger tower flags vs Et.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/16206", 
+                        "number": "16206", 
                         "is_merge_commit": false, 
                         "from_merge_commit": true, 
-                        "author_login": "lgray"
+                        "author_login": "tanmaymudholkar"
                     }, 
                     {
-                        "hash": "e51937c4a284a7837dc2ec527e7a35770fd248b4", 
-                        "title": "Phase I Pixel Barrel supply tubes material", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/16137", 
-                        "number": "16137", 
+                        "hash": "bbe3b436eb3a7528abb18b863d7584bb081e9dda", 
+                        "title": "Implemented BoostedDoubleSVTagInfos", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/16124", 
+                        "number": "16124", 
                         "is_merge_commit": false, 
                         "from_merge_commit": true, 
-                        "author_login": "zucchett"
-                    }, 
-                    {
-                        "hash": "060cdfef911ee6ae5ffb472bbf139b8f8a932c67", 
-                        "title": "New ME0PreDigi parameters", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/16132", 
-                        "number": "16132", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "calabria"
-                    }, 
-                    {
-                        "hash": "866f5bb6551bd0bbc3cdb2e44cc34435a30fda5a", 
-                        "title": "2017 HCAL TPs in HE are actually truncated at 10 bits.", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/16102", 
-                        "number": "16102", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "matz-e"
+                        "author_login": "cms-btv-pog"
                     }, 
                     {
                         "hash": "b502beaf277b8c66d48eb5dc398a81acf2ee9411", 
@@ -23005,13 +23022,13 @@
                         "author_login": "jruizvar"
                     }, 
                     {
-                        "hash": "c22779440bbe5ca52f60e1fdee068f1d11c35cf9", 
-                        "title": "DQM histogram axis range change for pPb flow HLT", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/15920", 
-                        "number": "15920", 
+                        "hash": "060cdfef911ee6ae5ffb472bbf139b8f8a932c67", 
+                        "title": "New ME0PreDigi parameters", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/16132", 
+                        "number": "16132", 
                         "is_merge_commit": false, 
                         "from_merge_commit": true, 
-                        "author_login": "zc11"
+                        "author_login": "calabria"
                     }, 
                     {
                         "hash": "0c5898d99e852ee1cb393f71c3ef100182ba9552", 
@@ -23041,31 +23058,13 @@
                         "author_login": "fioriNTU"
                     }, 
                     {
-                        "hash": "4d5c330505e34ea95126c87eabf9bf8541c424b7", 
-                        "title": "Remove old FPIX; make New FPIX default, and update FPIX materials", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/16149", 
-                        "number": "16149", 
+                        "hash": "e51937c4a284a7837dc2ec527e7a35770fd248b4", 
+                        "title": "Phase I Pixel Barrel supply tubes material", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/16137", 
+                        "number": "16137", 
                         "is_merge_commit": false, 
                         "from_merge_commit": true, 
-                        "author_login": "schneiml"
-                    }, 
-                    {
-                        "hash": "bbe3b436eb3a7528abb18b863d7584bb081e9dda", 
-                        "title": "Implemented BoostedDoubleSVTagInfos", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/16124", 
-                        "number": "16124", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-btv-pog"
-                    }, 
-                    {
-                        "hash": "7ded7c26574aa83e5922ba69b9ecaca0f0cbbb92", 
-                        "title": "Added 2-D histogram of trigger tower flags vs Et.", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/16206", 
-                        "number": "16206", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "tanmaymudholkar"
+                        "author_login": "zucchett"
                     }, 
                     {
                         "hash": "380edf163eeab4f685b5615f600d64d5a6459c05", 
@@ -23075,6 +23074,66 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": true, 
                         "author_login": "cferraio"
+                    }
+                ], 
+                "fwlite": []
+            }, 
+            {
+                "addons": [], 
+                "comp_baseline_state": "errors", 
+                "builds": [], 
+                "valgrind": "not-found", 
+                "comp_baseline": "not-found", 
+                "compared_tags": "CMSSW_8_1_ROOT6_X_2016-10-16-0000-->CMSSW_8_1_ROOT6_X", 
+                "dqm_tests": "inprogress", 
+                "utests": [], 
+                "cmsdistTags": {}, 
+                "igprof": "not-found", 
+                "relvals": [], 
+                "static_checks": "not-found", 
+                "isIB": false, 
+                "hlt_tests": "not-found", 
+                "material_budget": "not-found", 
+                "inProgress": false, 
+                "release_name": "CMSSW_8_1_ROOT6_X", 
+                "tests_archs": [], 
+                "RVExceptions": null, 
+                "merged_prs": [
+                    {
+                        "hash": "6ebde7496db3701db9f653817fb0d56f94bca3aa", 
+                        "title": "HL-LHC Beamspot in CMSSW 81X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15936", 
+                        "number": "15936", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "lgray"
+                    }, 
+                    {
+                        "hash": "866f5bb6551bd0bbc3cdb2e44cc34435a30fda5a", 
+                        "title": "2017 HCAL TPs in HE are actually truncated at 10 bits.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/16102", 
+                        "number": "16102", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "matz-e"
+                    }, 
+                    {
+                        "hash": "c22779440bbe5ca52f60e1fdee068f1d11c35cf9", 
+                        "title": "DQM histogram axis range change for pPb flow HLT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/15920", 
+                        "number": "15920", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "zc11"
+                    }, 
+                    {
+                        "hash": "4d5c330505e34ea95126c87eabf9bf8541c424b7", 
+                        "title": "Remove old FPIX; make New FPIX default, and update FPIX materials", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/16149", 
+                        "number": "16149", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "schneiml"
                     }, 
                     {
                         "hash": "f14a7641dab15e3bb8fc6f909ca9148479c2e4c4", 
@@ -33945,7 +34004,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-10-16-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1524, 
+                            "num_passed": 1537, 
                             "num_failed": 33
                         }
                     }, 
@@ -34196,11 +34255,21 @@
                 "relvals": [
                     {
                         "done": false, 
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": false, 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-11/CMSSW_8_1_X_2016-10-16-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 13, 
+                            "num_failed": 2
+                        }
+                    }, 
+                    {
+                        "done": false, 
                         "arch": "slc7_amd64_gcc530", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.1-sun-11/CMSSW_8_1_X_2016-10-16-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1, 
+                            "num_passed": 117, 
                             "num_failed": 1
                         }
                     }, 
@@ -34210,7 +34279,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc600/www/sun/8.1-sun-11/CMSSW_8_1_X_2016-10-16-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 198, 
+                            "num_passed": 273, 
                             "num_failed": 3
                         }
                     }
