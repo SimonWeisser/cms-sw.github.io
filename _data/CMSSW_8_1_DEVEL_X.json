@@ -1335,6 +1335,15 @@
                     "author_login": "lgray"
                 }, 
                 {
+                    "hash": "cffd80997b20df0cf8c3d0747dd73ffd114041bd", 
+                    "title": "Hcal 2017 DB Writer and Reader Fix", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/16211", 
+                    "number": "16211", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": true, 
+                    "author_login": "ianna"
+                }, 
+                {
                     "hash": "866f5bb6551bd0bbc3cdb2e44cc34435a30fda5a", 
                     "title": "2017 HCAL TPs in HE are actually truncated at 10 bits.", 
                     "url": "https://github.com/cms-sw/cmssw/pull/16102", 

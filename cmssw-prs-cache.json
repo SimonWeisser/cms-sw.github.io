@@ -19228,6 +19228,13 @@
     "title": "Added 2-D histogram of trigger tower flags vs Et.", 
     "user_ref": "ttflag_vs_et_81X"
   }, 
+  "16211": {
+    "author": "ianna", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "cffd80997b20df0cf8c3d0747dd73ffd114041bd", 
+    "title": "Hcal 2017 DB Writer and Reader Fix", 
+    "user_ref": "hcal-2017-db"
+  }, 
   "16212": {
     "author": "makortel", 
     "branch": "CMSSW_8_1_X", 

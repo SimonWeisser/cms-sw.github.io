@@ -15831,6 +15831,7 @@
                 ], 
                 "static_checks": "inprogress", 
                 "cmsdistTags": {
+                    "slc6_amd64_gcc493": "ERR/CMSSW_8_0_X_2016-10-16-0000/slc6_amd64_gcc493", 
                     "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2016-10-16-0000/slc6_amd64_gcc530", 
                     "slc7_amd64_gcc530": "IB/CMSSW_8_0_X_2016-10-16-0000/slc7_amd64_gcc530"
                 }, 
@@ -17140,7 +17141,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1.CLANG-sun-11/CMSSW_8_1_CLANG_X_2016-10-16-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 939, 
+                            "num_passed": 1021, 
                             "num_failed": 17
                         }
                     }
@@ -17233,7 +17234,17 @@
                 "release_name": "CMSSW_8_1_X", 
                 "tests_archs": [], 
                 "RVExceptions": null, 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "cffd80997b20df0cf8c3d0747dd73ffd114041bd", 
+                        "title": "Hcal 2017 DB Writer and Reader Fix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/16211", 
+                        "number": "16211", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
+                    }
+                ], 
                 "fwlite": []
             }
         ]
@@ -18573,6 +18584,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": true, 
                         "author_login": "lgray"
+                    }, 
+                    {
+                        "hash": "cffd80997b20df0cf8c3d0747dd73ffd114041bd", 
+                        "title": "Hcal 2017 DB Writer and Reader Fix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/16211", 
+                        "number": "16211", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "ianna"
                     }, 
                     {
                         "hash": "866f5bb6551bd0bbc3cdb2e44cc34435a30fda5a", 
@@ -20179,7 +20199,17 @@
                 "release_name": "CMSSW_8_1_X", 
                 "tests_archs": [], 
                 "RVExceptions": null, 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "cffd80997b20df0cf8c3d0747dd73ffd114041bd", 
+                        "title": "Hcal 2017 DB Writer and Reader Fix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/16211", 
+                        "number": "16211", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
+                    }
+                ], 
                 "fwlite": []
             }
         ]
@@ -21510,8 +21540,8 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1.NONTHREADED-sun-11/CMSSW_8_1_NONTHREADED_X_2016-10-16-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 617, 
-                            "num_failed": 11
+                            "num_passed": 906, 
+                            "num_failed": 13
                         }
                     }
                 ], 
@@ -21603,7 +21633,17 @@
                 "release_name": "CMSSW_8_1_X", 
                 "tests_archs": [], 
                 "RVExceptions": null, 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "cffd80997b20df0cf8c3d0747dd73ffd114041bd", 
+                        "title": "Hcal 2017 DB Writer and Reader Fix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/16211", 
+                        "number": "16211", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
+                    }
+                ], 
                 "fwlite": []
             }
         ]
@@ -22951,13 +22991,13 @@
                 "igprof": "not-found", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc6_amd64_gcc530", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1.ROOT6-sun-00/CMSSW_8_1_ROOT6_X_2016-10-16-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 275, 
-                            "num_failed": 448
+                            "num_passed": 276, 
+                            "num_failed": 451
                         }
                     }
                 ], 
@@ -23207,7 +23247,17 @@
                 "release_name": "CMSSW_8_1_ROOT6_X", 
                 "tests_archs": [], 
                 "RVExceptions": null, 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "cffd80997b20df0cf8c3d0747dd73ffd114041bd", 
+                        "title": "Hcal 2017 DB Writer and Reader Fix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/16211", 
+                        "number": "16211", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "ianna"
+                    }
+                ], 
                 "fwlite": []
             }
         ]
@@ -34276,18 +34326,18 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-11/CMSSW_8_1_X_2016-10-16-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1279, 
+                            "num_passed": 1311, 
                             "num_failed": 28
                         }
                     }, 
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc7_amd64_gcc530", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.1-sun-11/CMSSW_8_1_X_2016-10-16-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1285, 
-                            "num_failed": 84
+                            "num_passed": 1368, 
+                            "num_failed": 89
                         }
                     }, 
                     {
@@ -34296,7 +34346,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc600/www/sun/8.1-sun-11/CMSSW_8_1_X_2016-10-16-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 999, 
+                            "num_passed": 1031, 
                             "num_failed": 19
                         }
                     }
@@ -34424,7 +34474,17 @@
                 "release_name": "CMSSW_8_1_X", 
                 "tests_archs": [], 
                 "RVExceptions": null, 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "cffd80997b20df0cf8c3d0747dd73ffd114041bd", 
+                        "title": "Hcal 2017 DB Writer and Reader Fix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/16211", 
+                        "number": "16211", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
+                    }
+                ], 
                 "hlt_tests": "inprogress"
             }
         ]

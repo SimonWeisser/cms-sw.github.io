@@ -1553,7 +1553,17 @@
             "release_name": "CMSSW_8_1_X", 
             "tests_archs": [], 
             "RVExceptions": null, 
-            "merged_prs": [], 
+            "merged_prs": [
+                {
+                    "hash": "cffd80997b20df0cf8c3d0747dd73ffd114041bd", 
+                    "title": "Hcal 2017 DB Writer and Reader Fix", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/16211", 
+                    "number": "16211", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ianna"
+                }
+            ], 
             "fwlite": []
         }
     ]
