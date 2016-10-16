@@ -34393,11 +34393,23 @@
                 "fwlite": [], 
                 "cmsdistTags": {
                     "slc7_ppc64le_gcc530": "IB/CMSSW_8_1_X_2016-10-16-0000/slc7_ppc64le_gcc530", 
+                    "slc6_amd64_gcc530": "IB/CMSSW_8_1_X_2016-10-16-0000/slc6_amd64_gcc530", 
+                    "slc6_amd64_gcc600": "IB/CMSSW_8_1_X_2016-10-16-0000/slc6_amd64_gcc600", 
                     "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-10-16-0000/slc7_amd64_gcc530"
                 }, 
                 "addons": [], 
                 "comp_baseline_state": "ok", 
                 "builds": [
+                    {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": "error", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-10-16-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "linkError": 15, 
+                            "compError": 33, 
+                            "ignoreWarning": 10
+                        }
+                    }, 
                     {
                         "arch": "slc7_ppc64le_gcc530", 
                         "passed": "error", 
@@ -34418,6 +34430,17 @@
                             "linkError": 15, 
                             "compError": 33
                         }
+                    }, 
+                    {
+                        "arch": "slc6_amd64_gcc600", 
+                        "passed": "error", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc600/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-10-16-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "compWarning": 10, 
+                            "linkError": 15, 
+                            "compError": 33, 
+                            "ignoreWarning": 26
+                        }
                     }
                 ], 
                 "compared_tags": "CMSSW_8_1_X_2016-10-16-1100-->CMSSW_8_1_X_2016-10-16-2300", 
@@ -34427,6 +34450,12 @@
                 "relvals": [], 
                 "static_checks": "inprogress", 
                 "utests": [
+                    {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-10-16-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }, 
                     {
                         "arch": "slc7_ppc64le_gcc530", 
                         "passed": "unknown", 
@@ -34438,6 +34467,12 @@
                         "passed": "unknown", 
                         "file": "['/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-10-16-2300/new/logAnalysis.pkl']", 
                         "details": {}
+                    }, 
+                    {
+                        "arch": "slc6_amd64_gcc600", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc600/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-10-16-2300/new/logAnalysis.pkl']", 
+                        "details": {}
                     }
                 ], 
                 "igprof": "inprogress", 
@@ -34447,6 +34482,8 @@
                 "release_name": "CMSSW_8_1_X_2016-10-16-2300", 
                 "tests_archs": [
                     "slc7_ppc64le_gcc530", 
+                    "slc6_amd64_gcc530", 
+                    "slc6_amd64_gcc600", 
                     "slc7_amd64_gcc530"
                 ], 
                 "RVExceptions": null, 
