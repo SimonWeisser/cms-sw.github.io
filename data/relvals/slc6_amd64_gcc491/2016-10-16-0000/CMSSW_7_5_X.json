@@ -1,6 +1,33 @@
 [
     {
         "exitcode": 1,
+        "id": "4.35",
+        "name": "WMuSkim2011B+WMuSkim2011B+HLTDSKIM+RECODreHLT+HARVESTDreHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "DAS_ERROR",
+                "warnings": 0
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 1,
         "id": "4.52",
         "name": "RunMu2012B+RunMu2012B+HLTD+RECODreHLT+HARVESTDreHLT",
         "steps": [
@@ -759,6 +786,33 @@
         "exitcode": 1,
         "id": "1319.0",
         "name": "SingleGammaPt35_UP15+SingleGammaPt35_UP15INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "DAS_ERROR",
+                "warnings": 0
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 1,
+        "id": "1320.0",
+        "name": "SingleMuPt10_UP15+SingleMuPt10_UP15INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
         "steps": [
             {
                 "errors": 0,
@@ -6746,6 +6800,40 @@
     },
     {
         "exitcode": 0,
+        "id": "501.0",
+        "name": "MinBias_TuneZ2star_13TeV_pythia6+MinBias_TuneZ2star_13TeV_pythia6+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 39
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "502.0",
+        "name": "QCD_Pt-30_TuneZ2star_13TeV_pythia6+QCD_Pt-30_TuneZ2star_13TeV_pythia6+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 29
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "503.0",
         "name": "MinBias_13TeV_pythia8+MinBias_13TeV_pythia8+HARVESTGEN",
         "steps": [
@@ -6780,6 +6868,40 @@
     },
     {
         "exitcode": 0,
+        "id": "505.0",
+        "name": "DYToLL_M-50_13TeV_pythia8+DYToLL_M-50_13TeV_pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 19
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "506.0",
+        "name": "WToLNu_13TeV_pythia8+WToLNu_13TeV_pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 28
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "507.0",
         "name": "SoftQCDDiffractive_13TeV_pythia8+SoftQCDDiffractive_13TeV_pythia8+HARVESTGEN",
         "steps": [
@@ -6804,6 +6926,23 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 31
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "509.0",
+        "name": "SoftQCDelastic_13TeV_pythia8+SoftQCDelastic_13TeV_pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 13
             },
             {
                 "errors": 0,
@@ -6887,6 +7026,23 @@
     },
     {
         "exitcode": 0,
+        "id": "514.0",
+        "name": "GGToH_13TeV_pythia8+GGToH_13TeV_pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 27
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "515.0",
         "name": "DYTollJets_LO_Mad_13TeV_py8_taupinu+DYToll01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_MLM_5f_max4j_LHE_pythia8_taupinu+HARVESTGEN2",
         "steps": [
@@ -6955,6 +7111,23 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 58
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "519.0",
+        "name": "WJetsLNutaurhonu_13TeV_madgraph-pythia8+WJetsLNutaurhonu_13TeV_madgraph-pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 19
             },
             {
                 "errors": 0,
@@ -7116,6 +7289,23 @@
     },
     {
         "exitcode": 0,
+        "id": "528.0",
+        "name": "WToLNutaurhonu_13TeV_pythia8-tauola+WToLNutaurhonu_13TeV_pythia8-tauola+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 20
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "529.0",
         "name": "DYTollJets_LO_Mad_13TeV_py8_Ta_taurhonu+DYToll01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_MLM_5f_max4j_LHE_pythia8_Tauola_taurhonu+HARVESTGEN2",
         "steps": [
@@ -7128,6 +7318,40 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 40
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "530.0",
+        "name": "GGToHtaurhonu_13TeV_pythia8-tauola+GGToHtaurhonu_13TeV_pythia8-tauola+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 29
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "531.0",
+        "name": "ReggeGribovPartonMC_EposLHC_5TeV_pPb+ReggeGribovPartonMC_EposLHC_5TeV_pPb+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
                 "errors": 0,
