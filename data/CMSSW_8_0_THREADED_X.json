@@ -1,0 +1,242 @@
+{
+    "base_branch": "CMSSW_8_0_X", 
+    "release_name": "CMSSW_8_0_THREADED_X", 
+    "comparisons": [
+        {
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.0.THREADED-mon-23/CMSSW_8_0_THREADED_X_2016-10-10-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "comp_baseline_state": "errors", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.0.THREADED-mon-23/CMSSW_8_0_THREADED_X_2016-10-10-2300/new/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
+            "valgrind": "not-found", 
+            "comp_baseline": "not-found", 
+            "compared_tags": "CMSSW_8_0_THREADED_X_2016-10-09-0000-->CMSSW_8_0_THREADED_X_2016-10-10-2300", 
+            "dqm_tests": "found", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.0.THREADED-mon-23/CMSSW_8_0_THREADED_X_2016-10-10-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "3"
+                    }
+                }
+            ], 
+            "cmsdistTags": {
+                "slc6_amd64_gcc530": "Not Found"
+            }, 
+            "igprof": "not-found", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.0.THREADED-mon-23/CMSSW_8_0_THREADED_X_2016-10-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1055, 
+                        "num_failed": 79
+                    }
+                }
+            ], 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "hlt_tests": "not-found", 
+            "material_budget": "not-found", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_0_THREADED_X_2016-10-10-2300", 
+            "tests_archs": [
+                "slc6_amd64_gcc530"
+            ], 
+            "RVExceptions": null, 
+            "merged_prs": [
+                {
+                    "hash": "6a13781ab953945af76fea42cfe34293df79d872", 
+                    "title": "new MC pPb wf based on EposLHC_4080_4080GeV (80X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/16122", 
+                    "number": "16122", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "fabozzi"
+                }
+            ], 
+            "fwlite": []
+        }, 
+        {
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/tue/8.0.THREADED-tue-23/CMSSW_8_0_THREADED_X_2016-10-11-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "comp_baseline_state": "errors", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/tue/8.0.THREADED-tue-23/CMSSW_8_0_THREADED_X_2016-10-11-2300/new/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
+            "valgrind": "not-found", 
+            "comp_baseline": "not-found", 
+            "compared_tags": "CMSSW_8_0_THREADED_X_2016-10-10-2300-->CMSSW_8_0_THREADED_X_2016-10-11-2300", 
+            "dqm_tests": "found", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/tue/8.0.THREADED-tue-23/CMSSW_8_0_THREADED_X_2016-10-11-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "3"
+                    }
+                }
+            ], 
+            "cmsdistTags": {
+                "slc6_amd64_gcc530": "Not Found"
+            }, 
+            "igprof": "not-found", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/tue/8.0.THREADED-tue-23/CMSSW_8_0_THREADED_X_2016-10-11-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 959, 
+                        "num_failed": 105
+                    }
+                }
+            ], 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "hlt_tests": "not-found", 
+            "material_budget": "not-found", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_0_THREADED_X_2016-10-11-2300", 
+            "tests_archs": [
+                "slc6_amd64_gcc530"
+            ], 
+            "RVExceptions": null, 
+            "merged_prs": [
+                {
+                    "hash": "f9809ee7d33e765b8a898f678ee5acefd40e3f44", 
+                    "title": "additional and modified plots for SiStrip and Tracking DQM, for 80x", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/15422", 
+                    "number": "15422", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "manoni"
+                }
+            ], 
+            "fwlite": []
+        }, 
+        {
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/fri/8.0.THREADED-fri-23/CMSSW_8_0_THREADED_X_2016-10-14-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "comp_baseline_state": "errors", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/fri/8.0.THREADED-fri-23/CMSSW_8_0_THREADED_X_2016-10-14-2300/new/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
+            "valgrind": "not-found", 
+            "comp_baseline": "not-found", 
+            "compared_tags": "CMSSW_8_0_THREADED_X_2016-10-11-2300-->CMSSW_8_0_THREADED_X_2016-10-14-2300", 
+            "dqm_tests": "found", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/fri/8.0.THREADED-fri-23/CMSSW_8_0_THREADED_X_2016-10-14-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "3"
+                    }
+                }
+            ], 
+            "cmsdistTags": {
+                "slc6_amd64_gcc530": "Not Found"
+            }, 
+            "igprof": "not-found", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/fri/8.0.THREADED-fri-23/CMSSW_8_0_THREADED_X_2016-10-14-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1057, 
+                        "num_failed": 79
+                    }
+                }
+            ], 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "hlt_tests": "not-found", 
+            "material_budget": "not-found", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_0_THREADED_X_2016-10-14-2300", 
+            "tests_archs": [
+                "slc6_amd64_gcc530"
+            ], 
+            "RVExceptions": null, 
+            "merged_prs": [
+                {
+                    "hash": "7890563196b48994007c4fb2c3d9bc772b6a059a", 
+                    "title": "[80X] Temporary fix for multi-IOV input in MillePede", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/16136", 
+                    "number": "16136", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ghellwig"
+                }
+            ], 
+            "fwlite": []
+        }, 
+        {
+            "addons": [], 
+            "comp_baseline_state": "errors", 
+            "builds": [], 
+            "valgrind": "not-found", 
+            "comp_baseline": "not-found", 
+            "compared_tags": "CMSSW_8_0_THREADED_X_2016-10-14-2300-->CMSSW_8_0_X", 
+            "dqm_tests": "inprogress", 
+            "utests": [], 
+            "cmsdistTags": {}, 
+            "igprof": "not-found", 
+            "relvals": [], 
+            "static_checks": "not-found", 
+            "isIB": false, 
+            "hlt_tests": "not-found", 
+            "material_budget": "not-found", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_0_X", 
+            "tests_archs": [], 
+            "RVExceptions": null, 
+            "merged_prs": [], 
+            "fwlite": []
+        }
+    ]
+}
