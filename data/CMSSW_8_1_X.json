@@ -10839,12 +10839,12 @@
             "dqm_tests": "found", 
             "relvals": [
                 {
-                    "done": false, 
+                    "done": true, 
                     "arch": "slc6_amd64_gcc530", 
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-10-16-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1537, 
+                        "num_passed": 1550, 
                         "num_failed": 33
                     }
                 }, 
@@ -11099,7 +11099,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.1-sun-11/CMSSW_8_1_X_2016-10-16-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 13, 
+                        "num_passed": 171, 
                         "num_failed": 2
                     }
                 }, 
@@ -11109,8 +11109,8 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.1-sun-11/CMSSW_8_1_X_2016-10-16-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 117, 
-                        "num_failed": 1
+                        "num_passed": 276, 
+                        "num_failed": 7
                     }
                 }, 
                 {
@@ -11119,8 +11119,8 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc600/www/sun/8.1-sun-11/CMSSW_8_1_X_2016-10-16-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 273, 
-                        "num_failed": 3
+                        "num_passed": 373, 
+                        "num_failed": 4
                     }
                 }
             ], 
