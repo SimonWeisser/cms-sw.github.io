@@ -1,0 +1,62 @@
+[
+    {
+        "exitcode": 16640,
+        "id": "20824.0",
+        "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2023D3_GenSimHLBeamSpotFull+DigiFull_2023D3+RecoFullGlobal_2023D3+HARVESTFullGlobal_2023D3",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "20826.0",
+        "name": "QCD_Pt_600_800_13+QCD_Pt_600_800_13TeV_TuneCUETP8M1_2023D3_GenSimHLBeamSpotFull+DigiFull_2023D3+RecoFullGlobal_2023D3+HARVESTFullGlobal_2023D3",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "21226.0",
+        "name": "QCD_Pt_600_800_13+QCD_Pt_600_800_13TeV_TuneCUETP8M1_2023D4_GenSimHLBeamSpotFull+DigiFull_2023D4+RecoFullLocal_2023D4",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            },
+            {
+                "status": "NOTRUN"
+            },
+            {
+                "status": "NOTRUN"
+            }
+        ]
+    }
+]
