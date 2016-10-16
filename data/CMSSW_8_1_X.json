@@ -11052,7 +11052,7 @@
                 }
             ], 
             "compared_tags": "CMSSW_8_1_X_2016-10-16-0000-->CMSSW_8_1_X_2016-10-16-1100", 
-            "valgrind": "inprogress", 
+            "valgrind": "found", 
             "material_budget": "slc6_amd64_gcc530:8", 
             "dqm_tests": "found", 
             "relvals": [
