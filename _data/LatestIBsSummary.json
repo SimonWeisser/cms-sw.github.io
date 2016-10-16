@@ -6,7 +6,7 @@
         }, 
         "slc7_ppc64le_gcc530": {
             "status": "unknown", 
-            "latest_IB": "CMSSW_8_1_X_2016-10-16-0000"
+            "latest_IB": "CMSSW_8_1_X_2016-10-16-1100"
         }, 
         "slc6_amd64_gcc530": {
             "status": "error", 
