@@ -19,7 +19,7 @@
 201610160408.22 data/relvals/slc7_aarch64_gcc530/2016-10-14-2300/CMSSW_8_1_X.json
 201610151846.55 data/relvals/slc7_aarch64_gcc530/2016-10-14-1100/CMSSW_8_1_X.json
 201610130528.59 data/relvals/slc7_aarch64_gcc530/2016-10-11-2300/CMSSW_8_1_X.json
-201610171209.38 data/relvals/slc7_aarch64_gcc530/2016-10-16-1100/CMSSW_8_1_X.json
+201610171225.18 data/relvals/slc7_aarch64_gcc530/2016-10-16-1100/CMSSW_8_1_X.json
 201610102006.58 data/relvals/slc7_aarch64_gcc530/2016-10-09-1100/CMSSW_8_1_X.json
 201610110248.54 data/relvals/slc7_aarch64_gcc530/2016-10-09-2300/CMSSW_8_1_X.json
 201610101348.10 data/relvals/slc7_aarch64_gcc530/2016-10-09-0000/CMSSW_8_1_X.json
