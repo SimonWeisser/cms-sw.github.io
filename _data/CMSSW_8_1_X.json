@@ -11290,8 +11290,8 @@
             ], 
             "compared_tags": "CMSSW_8_1_X_2016-10-16-2300-->CMSSW_8_1_X_2016-10-17-1100", 
             "valgrind": "inprogress", 
-            "material_budget": "inprogress", 
-            "dqm_tests": "inprogress", 
+            "material_budget": "slc6_amd64_gcc530:8", 
+            "dqm_tests": "found", 
             "relvals": [
                 {
                     "done": false, 
@@ -11299,13 +11299,29 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc600/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-10-17-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 180, 
-                        "num_failed": 1
+                        "num_passed": 293, 
+                        "num_failed": 2
                     }
                 }
             ], 
             "static_checks": "inprogress", 
             "utests": [
+                {
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-10-17-1100/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "1"
+                    }
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc600", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc600/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-10-17-1100/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "1"
+                    }
+                }, 
                 {
                     "arch": "slc6_amd64_gcc530", 
                     "passed": "unknown", 
@@ -11317,23 +11333,11 @@
                     "passed": "unknown", 
                     "file": "['/data/sdt/buildlogs/slc7_aarch64_gcc530/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-10-17-1100/new/logAnalysis.pkl']", 
                     "details": {}
-                }, 
-                {
-                    "arch": "slc7_amd64_gcc530", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc530/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-10-17-1100/new/logAnalysis.pkl']", 
-                    "details": {}
-                }, 
-                {
-                    "arch": "slc6_amd64_gcc600", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc6_amd64_gcc600/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-10-17-1100/new/logAnalysis.pkl']", 
-                    "details": {}
                 }
             ], 
-            "igprof": "inprogress", 
+            "igprof": "found", 
             "isIB": true, 
-            "comp_baseline": "inprogress", 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_8_1_X_2016-10-17-1100/slc6_amd64_gcc530/-GenuineIntel/matrix-results", 
             "inProgress": false, 
             "release_name": "CMSSW_8_1_X_2016-10-17-1100", 
             "tests_archs": [
