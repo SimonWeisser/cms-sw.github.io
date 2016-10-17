@@ -1378,10 +1378,64 @@
         {
             "addons": [], 
             "comp_baseline_state": "errors", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1.CLANG-mon-11/CMSSW_8_1_CLANG_X_2016-10-17-1100/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 418, 
+                        "ignoreWarning": 234
+                    }
+                }
+            ], 
+            "valgrind": "not-found", 
+            "comp_baseline": "not-found", 
+            "compared_tags": "CMSSW_8_1_CLANG_X_2016-10-16-2300-->CMSSW_8_1_CLANG_X_2016-10-17-1100", 
+            "dqm_tests": "inprogress", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1.CLANG-mon-11/CMSSW_8_1_CLANG_X_2016-10-17-1100/new/logAnalysis.pkl']", 
+                    "details": {}
+                }
+            ], 
+            "cmsdistTags": {
+                "slc6_amd64_gcc530": "IB/CMSSW_8_1_CLANG_X_2016-10-16-0000/slc6_amd64_gcc530"
+            }, 
+            "igprof": "not-found", 
+            "relvals": [], 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "hlt_tests": "not-found", 
+            "material_budget": "not-found", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_1_CLANG_X_2016-10-17-1100", 
+            "tests_archs": [
+                "slc6_amd64_gcc530"
+            ], 
+            "RVExceptions": null, 
+            "merged_prs": [
+                {
+                    "hash": "58cfcdaf79cb54b9f523092ccfeca7d14e190127", 
+                    "title": "fix compilation error in Geometry/HcalTowerAlgo", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/16230", 
+                    "number": "16230", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }
+            ], 
+            "fwlite": []
+        }, 
+        {
+            "addons": [], 
+            "comp_baseline_state": "errors", 
             "builds": [], 
             "valgrind": "not-found", 
             "comp_baseline": "not-found", 
-            "compared_tags": "CMSSW_8_1_CLANG_X_2016-10-16-2300-->CMSSW_8_1_X", 
+            "compared_tags": "CMSSW_8_1_CLANG_X_2016-10-17-1100-->CMSSW_8_1_X", 
             "dqm_tests": "inprogress", 
             "utests": [], 
             "cmsdistTags": {}, 
@@ -1395,17 +1449,7 @@
             "release_name": "CMSSW_8_1_X", 
             "tests_archs": [], 
             "RVExceptions": null, 
-            "merged_prs": [
-                {
-                    "hash": "58cfcdaf79cb54b9f523092ccfeca7d14e190127", 
-                    "title": "fix compilation error in Geometry/HcalTowerAlgo", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/16230", 
-                    "number": "16230", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "davidlange6"
-                }
-            ], 
+            "merged_prs": [], 
             "fwlite": []
         }
     ]
