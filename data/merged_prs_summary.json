@@ -31632,20 +31632,13 @@
             {
                 "fwlite": [], 
                 "cmsdistTags": {
-                    "slc7_aarch64_gcc530": "IB/CMSSW_8_1_X_2016-10-09-1100/slc7_aarch64_gcc530", 
-                    "slc6_amd64_gcc600": "Not Found"
+                    "slc7_aarch64_gcc530": "IB/CMSSW_8_1_X_2016-10-09-1100/slc7_aarch64_gcc530"
                 }, 
                 "addons": [
                     {
                         "arch": "slc7_aarch64_gcc530", 
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-10-09-2300/addOnTests.log", 
-                        "details": {}
-                    }, 
-                    {
-                        "arch": "slc6_amd64_gcc600", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc600/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-10-09-2300/addOnTests.log", 
                         "details": {}
                     }
                 ], 
@@ -31656,15 +31649,6 @@
                         "passed": "passed", 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-10-09-2300/new/logAnalysis.pkl", 
                         "details": {}
-                    }, 
-                    {
-                        "arch": "slc6_amd64_gcc600", 
-                        "passed": "warning", 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc600/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-10-09-2300/new/logAnalysis.pkl", 
-                        "details": {
-                            "compWarning": 2, 
-                            "ignoreWarning": 4
-                        }
                     }
                 ], 
                 "compared_tags": "CMSSW_8_1_X_2016-10-09-1100-->CMSSW_8_1_X_2016-10-09-2300", 
@@ -31681,16 +31665,6 @@
                             "num_passed": 1390, 
                             "num_failed": 37
                         }
-                    }, 
-                    {
-                        "done": true, 
-                        "arch": "slc6_amd64_gcc600", 
-                        "passed": false, 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc600/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-10-09-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                        "details": {
-                            "num_passed": 1499, 
-                            "num_failed": 5
-                        }
                     }
                 ], 
                 "static_checks": "slc6_amd64_gcc530:", 
@@ -31702,14 +31676,6 @@
                         "details": {
                             "num_fails": "26"
                         }
-                    }, 
-                    {
-                        "arch": "slc6_amd64_gcc600", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc600/www/sun/8.1-sun-23/CMSSW_8_1_X_2016-10-09-2300/unitTests-summary.log", 
-                        "details": {
-                            "num_fails": "0"
-                        }
                     }
                 ], 
                 "igprof": "found", 
@@ -31718,8 +31684,7 @@
                 "inProgress": false, 
                 "release_name": "CMSSW_8_1_X_2016-10-09-2300", 
                 "tests_archs": [
-                    "slc7_aarch64_gcc530", 
-                    "slc6_amd64_gcc600"
+                    "slc7_aarch64_gcc530"
                 ], 
                 "RVExceptions": null, 
                 "merged_prs": [
@@ -34067,7 +34032,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-10-16-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 413, 
+                            "num_passed": 433, 
                             "num_failed": 10
                         }
                     }, 
