@@ -1,6 +1,33 @@
 [
     {
         "exitcode": 31744,
+        "id": "20824.0",
+        "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2023D3_GenSimHLBeamSpotFull+DigiFull_2023D3+RecoFullGlobal_2023D3+HARVESTFullGlobal_2023D3",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 9
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
         "id": "20826.0",
         "name": "QCD_Pt_600_800_13+QCD_Pt_600_800_13TeV_TuneCUETP8M1_2023D3_GenSimHLBeamSpotFull+DigiFull_2023D3+RecoFullGlobal_2023D3+HARVESTFullGlobal_2023D3",
         "steps": [
@@ -45,6 +72,60 @@
                 "errors": -1,
                 "status": "NOTRUN",
                 "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "22424.0",
+        "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2023D3Timing_GenSimHLBeamSpotFull+DigiFull_2023D3Timing+RecoFullGlobal_2023D3Timing+HARVESTFullGlobal_2023D3Timing",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 11
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            },
+            {
+                "errors": -1,
+                "status": "NOTRUN",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.722",
+        "name": "RunDoubleEG2016B+RunDoubleEG2016B+HLTDR2_2016+RECODR2_2016reHLT_skimDoubleEG_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 7,
+                "status": "PASSED",
+                "warnings": 1670
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 352
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 9
             }
         ]
     },
@@ -121,6 +202,33 @@
                 "errors": 3,
                 "status": "PASSED",
                 "warnings": 377
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.731",
+        "name": "RunSinglePh2016B+RunSinglePh2016B+HLTDR2_2016+RECODR2_2016reHLT_skimSinglePh_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 1860
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 340
             },
             {
                 "errors": 0,
