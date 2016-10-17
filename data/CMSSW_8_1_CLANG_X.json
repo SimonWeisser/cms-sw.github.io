@@ -1436,7 +1436,17 @@
             "release_name": "CMSSW_8_1_X", 
             "tests_archs": [], 
             "RVExceptions": null, 
-            "merged_prs": [], 
+            "merged_prs": [
+                {
+                    "hash": "58cfcdaf79cb54b9f523092ccfeca7d14e190127", 
+                    "title": "fix compilation error in Geometry/HcalTowerAlgo", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/16230", 
+                    "number": "16230", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }
+            ], 
             "fwlite": []
         }
     ]

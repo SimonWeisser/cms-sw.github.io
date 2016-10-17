@@ -19256,6 +19256,13 @@
     "title": "Allow shared_ptr and unique_ptr in top level data products", 
     "user_ref": "addNewFriendlyNames"
   }, 
+  "16230": {
+    "author": "davidlange6", 
+    "branch": "CMSSW_8_1_X", 
+    "hash": "58cfcdaf79cb54b9f523092ccfeca7d14e190127", 
+    "title": "fix compilation error in Geometry/HcalTowerAlgo", 
+    "user_ref": "fixgeomcomp"
+  }, 
   "1695": {
     "author": "lgray", 
     "branch": "CMSSW_5_3_X", 

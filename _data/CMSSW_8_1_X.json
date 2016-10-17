@@ -10776,8 +10776,8 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-10-16-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 138, 
-                        "num_failed": 6
+                        "num_passed": 143, 
+                        "num_failed": 8
                     }
                 }, 
                 {
@@ -11368,7 +11368,17 @@
             "release_name": "CMSSW_8_1_X", 
             "tests_archs": [], 
             "RVExceptions": null, 
-            "merged_prs": [], 
+            "merged_prs": [
+                {
+                    "hash": "58cfcdaf79cb54b9f523092ccfeca7d14e190127", 
+                    "title": "fix compilation error in Geometry/HcalTowerAlgo", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/16230", 
+                    "number": "16230", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }
+            ], 
             "hlt_tests": "inprogress"
         }
     ]
