@@ -20382,7 +20382,14 @@
                 "fwlite": []
             }, 
             {
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": false, 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1.ICC-mon-11/CMSSW_8_1_ICC_X_2016-10-17-1100/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "comp_baseline_state": "errors", 
                 "builds": [
                     {
@@ -20403,9 +20410,11 @@
                 "utests": [
                     {
                         "arch": "slc6_amd64_gcc530", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1.ICC-mon-11/CMSSW_8_1_ICC_X_2016-10-17-1100/new/logAnalysis.pkl']", 
-                        "details": {}
+                        "passed": "failed", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1.ICC-mon-11/CMSSW_8_1_ICC_X_2016-10-17-1100/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "482"
+                        }
                     }
                 ], 
                 "cmsdistTags": {
@@ -34800,12 +34809,28 @@
             {
                 "fwlite": [], 
                 "cmsdistTags": {
+                    "slc7_aarch64_gcc530": "IB/CMSSW_8_1_X_2016-10-16-1100/slc7_aarch64_gcc530", 
+                    "slc6_amd64_gcc530": "IB/CMSSW_8_1_X_2016-10-16-0000/slc6_amd64_gcc530", 
                     "slc6_amd64_gcc600": "IB/CMSSW_8_1_X_2016-10-16-0000/slc6_amd64_gcc600", 
                     "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-10-16-0000/slc7_amd64_gcc530"
                 }, 
                 "addons": [], 
                 "comp_baseline_state": "ok", 
                 "builds": [
+                    {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": "warning", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-10-17-1100/new/logAnalysis.pkl", 
+                        "details": {
+                            "compWarning": 10
+                        }
+                    }, 
+                    {
+                        "arch": "slc7_aarch64_gcc530", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-10-17-1100/new/logAnalysis.pkl", 
+                        "details": {}
+                    }, 
                     {
                         "arch": "slc7_amd64_gcc530", 
                         "passed": "warning", 
@@ -34831,6 +34856,18 @@
                 "static_checks": "inprogress", 
                 "utests": [
                     {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-10-17-1100/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }, 
+                    {
+                        "arch": "slc7_aarch64_gcc530", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_aarch64_gcc530/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-10-17-1100/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }, 
+                    {
                         "arch": "slc7_amd64_gcc530", 
                         "passed": "unknown", 
                         "file": "['/data/sdt/buildlogs/slc7_amd64_gcc530/www/mon/8.1-mon-11/CMSSW_8_1_X_2016-10-17-1100/new/logAnalysis.pkl']", 
@@ -34849,6 +34886,8 @@
                 "inProgress": false, 
                 "release_name": "CMSSW_8_1_X_2016-10-17-1100", 
                 "tests_archs": [
+                    "slc7_aarch64_gcc530", 
+                    "slc6_amd64_gcc530", 
                     "slc6_amd64_gcc600", 
                     "slc7_amd64_gcc530"
                 ], 
