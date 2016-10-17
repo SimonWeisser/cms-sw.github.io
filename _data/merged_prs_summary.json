@@ -15873,7 +15873,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/8.0-sun-23/CMSSW_8_0_X_2016-10-16-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 6, 
+                            "num_passed": 166, 
                             "num_failed": 0
                         }
                     }
@@ -30928,12 +30928,6 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-10-09-0000/addOnTests.log", 
                         "details": {}
-                    }, 
-                    {
-                        "arch": "slc7_amd64_gcc530", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-10-09-0000/addOnTests.log", 
-                        "details": {}
                     }
                 ], 
                 "comp_baseline_state": "ok", 
@@ -30945,15 +30939,6 @@
                         "details": {
                             "compWarning": 14, 
                             "ignoreWarning": 32
-                        }
-                    }, 
-                    {
-                        "arch": "slc7_amd64_gcc530", 
-                        "passed": "warning", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-10-09-0000/new/logAnalysis.pkl", 
-                        "details": {
-                            "compWarning": 8, 
-                            "ignoreWarning": 27
                         }
                     }
                 ], 
@@ -30971,16 +30956,6 @@
                             "num_passed": 1397, 
                             "num_failed": 37
                         }
-                    }, 
-                    {
-                        "done": false, 
-                        "arch": "slc7_amd64_gcc530", 
-                        "passed": false, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-10-09-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                        "details": {
-                            "num_passed": 985, 
-                            "num_failed": 65
-                        }
                     }
                 ], 
                 "static_checks": "slc6_amd64_gcc530:", 
@@ -30992,14 +30967,6 @@
                         "details": {
                             "num_fails": "27"
                         }
-                    }, 
-                    {
-                        "arch": "slc7_amd64_gcc530", 
-                        "passed": "failed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-10-09-0000/unitTests-summary.log", 
-                        "details": {
-                            "num_fails": "1"
-                        }
                     }
                 ], 
                 "igprof": "found", 
@@ -31008,8 +30975,7 @@
                 "inProgress": false, 
                 "release_name": "CMSSW_8_1_X_2016-10-09-0000", 
                 "tests_archs": [
-                    "slc7_aarch64_gcc530", 
-                    "slc7_amd64_gcc530"
+                    "slc7_aarch64_gcc530"
                 ], 
                 "RVExceptions": null, 
                 "merged_prs": [
@@ -31824,7 +31790,7 @@
                     "slc7_aarch64_gcc530": "IB/CMSSW_8_1_X_2016-10-09-1100/slc7_aarch64_gcc530", 
                     "slc6_amd64_gcc530": "Not Found", 
                     "slc6_amd64_gcc600": "Not Found", 
-                    "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-10-09-0000/slc7_amd64_gcc530"
+                    "slc7_amd64_gcc530": "Not Found"
                 }, 
                 "addons": [
                     {
@@ -32003,7 +31969,7 @@
                     "slc7_aarch64_gcc530": "IB/CMSSW_8_1_X_2016-10-09-1100/slc7_aarch64_gcc530", 
                     "slc6_amd64_gcc530": "Not Found", 
                     "slc6_amd64_gcc600": "Not Found", 
-                    "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-10-09-0000/slc7_amd64_gcc530"
+                    "slc7_amd64_gcc530": "Not Found"
                 }, 
                 "addons": [
                     {
@@ -32201,7 +32167,7 @@
                     "slc7_aarch64_gcc530": "IB/CMSSW_8_1_X_2016-10-09-1100/slc7_aarch64_gcc530", 
                     "slc6_amd64_gcc530": "Not Found", 
                     "slc6_amd64_gcc600": "Not Found", 
-                    "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-10-09-0000/slc7_amd64_gcc530"
+                    "slc7_amd64_gcc530": "Not Found"
                 }, 
                 "addons": [
                     {
@@ -32480,7 +32446,7 @@
                     "slc7_aarch64_gcc530": "IB/CMSSW_8_1_X_2016-10-09-1100/slc7_aarch64_gcc530", 
                     "slc6_amd64_gcc530": "Not Found", 
                     "slc6_amd64_gcc600": "Not Found", 
-                    "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-10-09-0000/slc7_amd64_gcc530"
+                    "slc7_amd64_gcc530": "Not Found"
                 }, 
                 "addons": [
                     {
@@ -32740,7 +32706,7 @@
                     "slc7_aarch64_gcc530": "IB/CMSSW_8_1_X_2016-10-09-1100/slc7_aarch64_gcc530", 
                     "slc6_amd64_gcc530": "Not Found", 
                     "slc6_amd64_gcc600": "Not Found", 
-                    "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-10-09-0000/slc7_amd64_gcc530"
+                    "slc7_amd64_gcc530": "Not Found"
                 }, 
                 "addons": [
                     {
@@ -32964,7 +32930,7 @@
                     "slc7_aarch64_gcc530": "IB/CMSSW_8_1_X_2016-10-09-1100/slc7_aarch64_gcc530", 
                     "slc6_amd64_gcc530": "Not Found", 
                     "slc6_amd64_gcc600": "Not Found", 
-                    "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-10-09-0000/slc7_amd64_gcc530"
+                    "slc7_amd64_gcc530": "Not Found"
                 }, 
                 "addons": [
                     {
@@ -33161,7 +33127,7 @@
                     "slc7_aarch64_gcc530": "IB/CMSSW_8_1_X_2016-10-09-1100/slc7_aarch64_gcc530", 
                     "slc6_amd64_gcc530": "Not Found", 
                     "slc6_amd64_gcc600": "Not Found", 
-                    "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-10-09-0000/slc7_amd64_gcc530"
+                    "slc7_amd64_gcc530": "Not Found"
                 }, 
                 "addons": [
                     {
@@ -33394,7 +33360,7 @@
                     "slc7_aarch64_gcc530": "IB/CMSSW_8_1_X_2016-10-09-1100/slc7_aarch64_gcc530", 
                     "slc6_amd64_gcc530": "Not Found", 
                     "slc6_amd64_gcc600": "Not Found", 
-                    "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-10-09-0000/slc7_amd64_gcc530"
+                    "slc7_amd64_gcc530": "Not Found"
                 }, 
                 "addons": [
                     {
@@ -33646,7 +33612,7 @@
                     "slc7_ppc64le_gcc530": "IB/CMSSW_8_1_X_2016-10-14-1100/slc7_ppc64le_gcc530", 
                     "slc6_amd64_gcc530": "Not Found", 
                     "slc6_amd64_gcc600": "Not Found", 
-                    "slc7_amd64_gcc530": "IB/CMSSW_8_1_X_2016-10-09-0000/slc7_amd64_gcc530"
+                    "slc7_amd64_gcc530": "Not Found"
                 }, 
                 "addons": [
                     {
@@ -34320,7 +34286,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc530/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-10-16-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 171, 
+                            "num_passed": 190, 
                             "num_failed": 9
                         }
                     }, 
